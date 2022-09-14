@@ -1,0 +1,119 @@
+.icon {
+  display: inline-flex;
+  align-items: center;
+  transition: 0.25;
+}
+
+.icon:hover::before,
+.icon:hover::after {
+  opacity: 0.8;
+}
+
+.i-phone::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background: url(../img/icons/phone-white.png) no-repeat;
+  background-size: cover;
+}
+
+.i-mail::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../img/icons/mail.png) no-repeat;
+  background-size: cover;
+}
+
+.i-facebook::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: url(../img/icons/fb.png) no-repeat;
+  background-size: cover;
+}
+
+.i-instagram::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: url(../img/icons/instagram.png) no-repeat;
+  background-size: cover;
+}
+
+.i-houzz::before {
+  content: '';
+  width: 60px;
+  height: 30px;
+  background: url(../img/icons/houzz.png) no-repeat;
+  background-size: cover;
+}
+
+.i-youtube::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: url(../img/icons/icons8-youtube-logo.gif) no-repeat;
+  background-size: cover;
+}
+
+.i-yelp::before {
+  content: '';
+  width: 60px;
+  height: 30px;
+  background: url(../img/icons/yelp-logo-276.png) no-repeat;
+  background-size: cover;
+}
+
+
+.i-search::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../img/icons/search.png) no-repeat;
+  background-size: cover;
+}
+
+.i-drop-down::after {
+  content: '˅';
+  margin-left: 5px;
+  transition: 0.25s;
+}
+
+.i-drop-right::before {
+  content: '>';
+  margin-right: 5px;
+  transition: 0.25s;
+}
+
+.i-cross::before {
+  content: 'X';
+  font-size: 18px;
+}
+
+.i-checker::before {
+  content: '';
+  width: 14px;
+  display: block;
+  height: 14px;
+  background: url(../img/icons/check-mark.png) no-repeat;
+  background-size: cover;
+}
+
+.i-burger::before {
+  content: '';
+  width: 32px;
+  display: inline-block;
+  height: 40px;
+  background: url(../img/icons/burget.png) no-repeat;
+  background-size: cover;
+}
+
+.i-close::before {
+  content: '';
+  width: 32px;
+  display: inline-block;
+  height: 32px;
+  background: url(../img/icons/close.svg) no-repeat;
+  background-size: cover;
+}
